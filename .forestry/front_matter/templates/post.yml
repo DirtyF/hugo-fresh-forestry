@@ -1,0 +1,13 @@
+---
+label: Post
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: sidebar
+  label: sidebar
+- type: text
+  name: sidebarlogo
+  label: sidebarlogo
