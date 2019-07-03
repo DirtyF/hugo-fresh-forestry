@@ -26,3 +26,5 @@ fields:
       path: 
   label: type
   description: Content Type
+pages:
+- content/blog/first.md
