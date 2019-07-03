@@ -11,3 +11,18 @@ fields:
 - type: text
   name: sidebarlogo
   label: sidebarlogo
+- name: type
+  type: select
+  default: post
+  config:
+    required: false
+    options:
+    - post
+    - page
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: type
+  description: Content Type
