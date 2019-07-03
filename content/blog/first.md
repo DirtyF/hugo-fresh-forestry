@@ -6,3 +6,5 @@ type: post
 
 ---
 My super sweet first blog post!!
+
+This has a post type.
