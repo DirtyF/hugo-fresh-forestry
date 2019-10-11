@@ -1,0 +1,247 @@
+---
+label: Configuration
+hide_body: true
+fields:
+- type: text
+  name: baseURL
+  label: baseURL
+- type: text
+  name: languageCode
+  label: languageCode
+- type: text
+  name: title
+  label: title
+- type: text
+  name: theme
+  label: theme
+- type: field_group
+  name: params
+  label: params
+  fields:
+  - type: field_group
+    name: navbarlogo
+    label: navbarlogo
+    fields:
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: link
+      label: link
+  - type: field_group
+    name: font
+    label: font
+    fields:
+    - type: text
+      name: name
+      label: name
+    - type: list
+      name: sizes
+      label: sizes
+  - type: field_group
+    name: hero
+    label: hero
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: text
+      name: buttontext
+      label: buttontext
+    - type: text
+      name: buttonlink
+      label: buttonlink
+    - type: file
+      name: image
+      label: image
+    - type: list
+      name: clientlogos
+      label: clientlogos
+  - type: field_group_list
+    name: navbar
+    label: navbar
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: url
+      label: url
+  - type: field_group
+    name: section1
+    label: section1
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: field_group_list
+      name: tiles
+      label: tiles
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: text
+        name: icon
+        label: icon
+      - type: text
+        name: text
+        label: text
+      - type: text
+        name: url
+        label: url
+      - type: text
+        name: buttonText
+        label: buttonText
+  - type: field_group
+    name: section2
+    label: section2
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: field_group_list
+      name: features
+      label: features
+      fields:
+      - type: text
+        name: title
+        label: title
+      - type: textarea
+        name: text
+        label: text
+      - type: text
+        name: icon
+        label: icon
+  - type: field_group
+    name: section3
+    label: section3
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: file
+      name: image
+      label: image
+    - type: text
+      name: buttonText
+      label: buttonText
+    - type: text
+      name: buttonLink
+      label: buttonLink
+  - type: field_group
+    name: section4
+    label: section4
+    fields:
+    - type: text
+      name: title
+      label: title
+    - type: text
+      name: subtitle
+      label: subtitle
+    - type: field_group_list
+      name: clients
+      label: clients
+      fields:
+      - type: text
+        name: name
+        label: name
+      - type: textarea
+        name: quote
+        label: quote
+      - type: text
+        name: job
+        label: job
+      - type: number
+        name: img
+        label: img
+  - type: boolean
+    name: section5
+    label: section5
+  - type: field_group
+    name: footer
+    label: footer
+    fields:
+    - type: file
+      name: logo
+      label: logo
+    - type: field_group_list
+      name: socialmedia
+      label: socialmedia
+      fields:
+      - type: text
+        name: link
+        label: link
+      - type: text
+        name: icon
+        label: icon
+    - type: boolean
+      name: bulmalogo
+      label: bulmalogo
+    - type: field_group
+      name: quicklinks
+      label: quicklinks
+      fields:
+      - type: field_group
+        name: column1
+        label: column1
+        fields:
+        - type: text
+          name: title
+          label: title
+        - type: field_group_list
+          name: links
+          label: links
+          fields:
+          - type: text
+            name: text
+            label: text
+          - type: text
+            name: link
+            label: link
+      - type: field_group
+        name: column2
+        label: column2
+        fields:
+        - type: text
+          name: title
+          label: title
+        - type: field_group_list
+          name: links
+          label: links
+          fields:
+          - type: text
+            name: text
+            label: text
+          - type: text
+            name: link
+            label: link
+      - type: field_group
+        name: column3
+        label: column3
+        fields:
+        - type: text
+          name: title
+          label: title
+        - type: field_group_list
+          name: links
+          label: links
+          fields:
+          - type: text
+            name: text
+            label: text
+          - type: text
+            name: link
+            label: link
