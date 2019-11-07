@@ -14,7 +14,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
-    export_format: YYYY-MM-DD hh:mm:ss Z
+    export_format: YYYY-MM-DDThh:mm:ssZ
 - type: boolean
   name: sidebar
   label: sidebar
